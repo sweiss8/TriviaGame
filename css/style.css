@@ -2,13 +2,17 @@
 h1 {
     margin: 0 auto;
     text-align: center;
+    font-family: cursive;
+    background-color: brown;
+    color: gold;
+    max-width: 750px;
 }
 .container {
     max-width: 750px;
     height: 500px;
     /* display: flex; */
-    background-color: green;
-    color: yellow;
+    background-color: rgb(7, 58, 7);
+    color: gold;
     margin: 0 auto;
     text-align: center;
     display: flex;
@@ -17,49 +21,64 @@ h1 {
 }
 
 .welcome {
-    height: 100px;
+    height: 50px;
+    line-height: 50px;
     width: 400px;
-    background-color: blue;
     margin: 0 auto;
+    border: 10px solid gold;
+    background-color: brown;
+
+    
 } 
 
 .instructions {
-    height: 200px;
+    height: 115px;
     width: 400px;
-    background-color:red;
     margin: 0 auto;
+    padding: 10px;
+    border: 2px;
+    border: 2px solid gold;
+    background-color: brown;
 
 } 
 
-#startButton {
+#startButton, #tryAgain {
     height: 50px;
     width: 100px;
     position: relative;
     margin: 0 auto;
+    background-color: brown;
+    color: gold;
+    border: 1px solid gold;
 
 }
 
-.question {
-    height: 100px;
+.question, .score {
+    height: 50px;
+    line-height: 50px;
     width: 400px;
-    background-color: blue;
+    background-color: brown;
+    border: 2px solid gold;
     margin: 0 auto;
     
 }
 
 .options {
     margin: 0 auto;
+    font-size: 14px;
     position: relative;
     width: 50%;
-    height: 25px;
+    height: 50px;
     background-color: brown;
     color: gold;
+    border: 1px solid gold;
 }
 
 .options:hover {
     background-color: rgb(102, 27, 27);
 
 }
+
 
 
 

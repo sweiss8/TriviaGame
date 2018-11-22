@@ -62,7 +62,7 @@ function welcomeScreen(){
     var instructions = $("<div class=instructions>");
     var start = $("<button id=startButton>");
     welcome.text("Welcome to Lord of the Rings Trivia Game!");
-    instructions.text("This trivia is designed to see if you've actually read the books, or just seen the movie. You have 12 seconds to answer each question. Press 'Start' to begin. Good luck!");
+    instructions.html("<p>This trivia is designed to see if you've actually read the books, or just seen the movie.</p><p>You have 12 seconds to answer each question. Press 'Start' to begin. Good luck!</p>");
     start.text("Start");
     $(".container").append(welcome, instructions, start);
     
