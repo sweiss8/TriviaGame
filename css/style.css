@@ -1,0 +1,65 @@
+
+h1 {
+    margin: 0 auto;
+    text-align: center;
+}
+.container {
+    max-width: 750px;
+    height: 500px;
+    /* display: flex; */
+    background-color: green;
+    color: yellow;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.welcome {
+    height: 100px;
+    width: 400px;
+    background-color: blue;
+    margin: 0 auto;
+} 
+
+.instructions {
+    height: 200px;
+    width: 400px;
+    background-color:red;
+    margin: 0 auto;
+
+} 
+
+#startButton {
+    height: 50px;
+    width: 100px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.question {
+    height: 100px;
+    width: 400px;
+    background-color: blue;
+    margin: 0 auto;
+    
+}
+
+.options {
+    margin: 0 auto;
+    position: relative;
+    width: 50%;
+    height: 25px;
+    background-color: brown;
+    color: gold;
+}
+
+.options:hover {
+    background-color: rgb(102, 27, 27);
+
+}
+
+
+
